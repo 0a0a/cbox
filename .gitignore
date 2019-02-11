@@ -1,27 +1,32 @@
-# OS temp-file
-.DS_Store
+# Prerequisites
+*.d
 
 # Compiled Object files
 *.slo
 *.lo
 *.o
-*.out
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
 
 # Compiled Dynamic libraries
 *.so
 *.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
 
 # Compiled Static libraries
 *.lai
 *.la
 *.a
+*.lib
 
-# eclipse
-workspace/.metadata
-
-# idea
-.idea/workspace.xml
-.idea/
-
-# npm
-node_modules
+# Executables
+*.exe
+*.out
+*.app
